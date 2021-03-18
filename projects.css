@@ -109,8 +109,9 @@ section.content div.topContent {
  
 }
 div.featuredProject {
- flex-grow: 0; 
- width: 50%;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
 }
 section.aboutMeBox {
  display: flex;
