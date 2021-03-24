@@ -54,6 +54,7 @@ table {
  font-size: 62.5%
  
 }
+
 body {
  background-image: linear-gradient(#f2e4e4, rgb(#e8929b) 0%, 100%);
  background-attachment: fixed; 
@@ -72,11 +73,13 @@ header div.myName{
  color:#0d0c0c;
  font-family: 'Dosis';
 }
+@media (max-width: 800px) 
 h1 {
  font-size: 50px;
  margin: 20px;
  padding: auto;
 }
+@media (max-width: 800px) 
 h2 {
  font-size: 50px;
  
@@ -88,11 +91,14 @@ section.aboutMeBox h2 {
 header, footer {
  background-color: #f2e4e4;    
 }
+
+@media (max-width: 800px) 
 header nav{
  margin:25px;
  padding: 0px;
  display:flex;
 }
+
 
 a{
  padding: 10px;
@@ -113,6 +119,8 @@ div.featuredProject {
     margin: 20px;
     width: 50%;
 }
+
+@media only (max-width: 800px) 
 section.aboutMeBox {
  display: flex;
  flex-flow: column nowrap;
@@ -120,6 +128,8 @@ section.aboutMeBox {
  align-items: space-around;
  width: 50%;
 }
+
+
  div.myProjects a{
    display: flex;
    flex-flow: wrap;
