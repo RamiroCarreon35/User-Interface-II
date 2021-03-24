@@ -107,6 +107,7 @@ a{
  border:2px solid black;
  color: #004e64;
 }
+@media only (max-width: 800px) 
 header nav a:first-of-type {
  background: #f5f0f3;
 }
@@ -114,6 +115,7 @@ section.content div.topContent {
  display: flex;
  
 }
+
 div.featuredProject {
     padding: 20px;
     margin: 20px;
@@ -129,7 +131,7 @@ section.aboutMeBox {
  width: 50%;
 }
 
-
+@media only (max-width: 800px) 
  div.myProjects a{
    display: flex;
    flex-flow: wrap;
